@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA3478F20BC109600FA2B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3478E20BC109600FA2B03 /* AppDelegate.m */; };
+		5EA3479220BC109600FA2B03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3479120BC109600FA2B03 /* ViewController.m */; };
+		5EA3479520BC109600FA2B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3479320BC109600FA2B03 /* Main.storyboard */; };
+		5EA3479720BC109800FA2B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3479620BC109800FA2B03 /* Assets.xcassets */; };
+		5EA3479A20BC109800FA2B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3479820BC109800FA2B03 /* LaunchScreen.storyboard */; };
+		5EA3479D20BC109800FA2B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3479C20BC109800FA2B03 /* main.m */; };
+		5EA347AA20BC10FA00FA2B03 /* XLFoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA347A520BC10FA00FA2B03 /* XLFoldLabel.m */; };
+		5EA347AB20BC10FA00FA2B03 /* XLFoldClockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA347A720BC10FA00FA2B03 /* XLFoldClockItem.m */; };
+		5EA347AC20BC10FA00FA2B03 /* XLFoldClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA347A920BC10FA00FA2B03 /* XLFoldClock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EA3478A20BC109600FA2B03 /* XLFoldClockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLFoldClockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA3478D20BC109600FA2B03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EA3478E20BC109600FA2B03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EA3479020BC109600FA2B03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EA3479120BC109600FA2B03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EA3479420BC109600FA2B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA3479620BC109800FA2B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA3479920BC109800FA2B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA3479B20BC109800FA2B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA3479C20BC109800FA2B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EA347A420BC10FA00FA2B03 /* XLFoldClockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFoldClockItem.h; sourceTree = "<group>"; };
+		5EA347A520BC10FA00FA2B03 /* XLFoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFoldLabel.m; sourceTree = "<group>"; };
+		5EA347A620BC10FA00FA2B03 /* XLFoldClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFoldClock.h; sourceTree = "<group>"; };
+		5EA347A720BC10FA00FA2B03 /* XLFoldClockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFoldClockItem.m; sourceTree = "<group>"; };
+		5EA347A820BC10FA00FA2B03 /* XLFoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFoldLabel.h; sourceTree = "<group>"; };
+		5EA347A920BC10FA00FA2B03 /* XLFoldClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFoldClock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA3478720BC109600FA2B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA3478120BC109600FA2B03 = {
+			isa = PBXGroup;
+			children = (
+				5EA347A320BC10FA00FA2B03 /* XLFoldClock */,
+				5EA3478C20BC109600FA2B03 /* XLFoldClockDemo */,
+				5EA3478B20BC109600FA2B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA3478B20BC109600FA2B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA3478A20BC109600FA2B03 /* XLFoldClockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA3478C20BC109600FA2B03 /* XLFoldClockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5EA3478D20BC109600FA2B03 /* AppDelegate.h */,
+				5EA3478E20BC109600FA2B03 /* AppDelegate.m */,
+				5EA3479020BC109600FA2B03 /* ViewController.h */,
+				5EA3479120BC109600FA2B03 /* ViewController.m */,
+				5EA3479320BC109600FA2B03 /* Main.storyboard */,
+				5EA3479620BC109800FA2B03 /* Assets.xcassets */,
+				5EA3479820BC109800FA2B03 /* LaunchScreen.storyboard */,
+				5EA3479B20BC109800FA2B03 /* Info.plist */,
+				5EA3479C20BC109800FA2B03 /* main.m */,
+			);
+			path = XLFoldClockDemo;
+			sourceTree = "<group>";
+		};
+		5EA347A320BC10FA00FA2B03 /* XLFoldClock */ = {
+			isa = PBXGroup;
+			children = (
+				5EA347A620BC10FA00FA2B03 /* XLFoldClock.h */,
+				5EA347A920BC10FA00FA2B03 /* XLFoldClock.m */,
+				5EA347A420BC10FA00FA2B03 /* XLFoldClockItem.h */,
+				5EA347A720BC10FA00FA2B03 /* XLFoldClockItem.m */,
+				5EA347A820BC10FA00FA2B03 /* XLFoldLabel.h */,
+				5EA347A520BC10FA00FA2B03 /* XLFoldLabel.m */,
+			);
+			path = XLFoldClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA3478920BC109600FA2B03 /* XLFoldClockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA347A020BC109800FA2B03 /* Build configuration list for PBXNativeTarget "XLFoldClockDemo" */;
+			buildPhases = (
+				5EA3478620BC109600FA2B03 /* Sources */,
+				5EA3478720BC109600FA2B03 /* Frameworks */,
+				5EA3478820BC109600FA2B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLFoldClockDemo;
+			productName = XLFoldClockDemo;
+			productReference = 5EA3478A20BC109600FA2B03 /* XLFoldClockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA3478220BC109600FA2B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mxl;
+				TargetAttributes = {
+					5EA3478920BC109600FA2B03 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5EA3478520BC109600FA2B03 /* Build configuration list for PBXProject "XLFoldClockDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA3478120BC109600FA2B03;
+			productRefGroup = 5EA3478B20BC109600FA2B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA3478920BC109600FA2B03 /* XLFoldClockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA3478820BC109600FA2B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA3479A20BC109800FA2B03 /* LaunchScreen.storyboard in Resources */,
+				5EA3479720BC109800FA2B03 /* Assets.xcassets in Resources */,
+				5EA3479520BC109600FA2B03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA3478620BC109600FA2B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA3479220BC109600FA2B03 /* ViewController.m in Sources */,
+				5EA347AB20BC10FA00FA2B03 /* XLFoldClockItem.m in Sources */,
+				5EA347AA20BC10FA00FA2B03 /* XLFoldLabel.m in Sources */,
+				5EA347AC20BC10FA00FA2B03 /* XLFoldClock.m in Sources */,
+				5EA3479D20BC109800FA2B03 /* main.m in Sources */,
+				5EA3478F20BC109600FA2B03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EA3479320BC109600FA2B03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA3479420BC109600FA2B03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA3479820BC109800FA2B03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA3479920BC109800FA2B03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA3479E20BC109800FA2B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EA3479F20BC109800FA2B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA347A120BC109800FA2B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XLFoldClockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.XLFoldClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA347A220BC109800FA2B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XLFoldClockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.XLFoldClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA3478520BC109600FA2B03 /* Build configuration list for PBXProject "XLFoldClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA3479E20BC109800FA2B03 /* Debug */,
+				5EA3479F20BC109800FA2B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA347A020BC109800FA2B03 /* Build configuration list for PBXNativeTarget "XLFoldClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA347A120BC109800FA2B03 /* Debug */,
+				5EA347A220BC109800FA2B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EA3478220BC109600FA2B03 /* Project object */;
+}
